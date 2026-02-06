@@ -9,6 +9,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@stryker-mutator/core": "^9.0.1"
+    "@stryker-mutator/core": "^9.5.1"
   }
 }
