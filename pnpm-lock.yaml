@@ -189,6 +189,15 @@ packages:
       '@types/node':
         optional: true
 
+  '@inquirer/core@11.1.10':
+    resolution: {integrity: sha512-a4Q5BXHQAHa9eO202sTaFCHFYVB3x5fauDuThEAdZ9gfn76pSxiKU7wWcEH0N1O0XmQvNfQNU6QXpiRxmYQx+A==}
+    engines: {node: '>=23.5.0 || ^22.13.0 || ^21.7.0 || ^20.12.0'}
+    peerDependencies:
+      '@types/node': '>=18'
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+
   '@inquirer/core@11.1.8':
     resolution: {integrity: sha512-/u+yJk2pOKNDOh1ZgdUH2RQaRx6OOH4I0uwL95qPvTFTIL38YBsuSC4r1yXBB3Q6JvNqFFc202gk0Ew79rrcjA==}
     engines: {node: '>=23.5.0 || ^22.13.0 || ^21.7.0 || ^20.12.0'}
@@ -238,8 +247,8 @@ packages:
       '@types/node':
         optional: true
 
-  '@inquirer/number@4.0.11':
-    resolution: {integrity: sha512-Vscmim9TCksQsfjPtka/JwPUcbLhqWYrgfPf1cHrCm24X/F2joFwnageD50yMKsaX14oNGOyKf/RNXAFkNjWpA==}
+  '@inquirer/number@4.0.13':
+    resolution: {integrity: sha512-WHmkYnnJAou5gx7RgcvAfUggnHNM1zWfoh0dFPl3dxVssuqt+dK5rIbaOYQXNyOegvFnopbKupjnhw2O8gANNg==}
     engines: {node: '>=23.5.0 || ^22.13.0 || ^21.7.0 || ^20.12.0'}
     peerDependencies:
       '@types/node': '>=18'
@@ -953,6 +962,16 @@ snapshots:
       '@inquirer/core': 11.1.8
       '@inquirer/type': 4.0.5
 
+  '@inquirer/core@11.1.10':
+    dependencies:
+      '@inquirer/ansi': 2.0.5
+      '@inquirer/figures': 2.0.5
+      '@inquirer/type': 4.0.5
+      cli-width: 4.1.0
+      fast-wrap-ansi: 0.2.0
+      mute-stream: 3.0.0
+      signal-exit: 4.1.0
+
   '@inquirer/core@11.1.8':
     dependencies:
       '@inquirer/ansi': 2.0.5
@@ -986,9 +1005,9 @@ snapshots:
       '@inquirer/core': 11.1.8
       '@inquirer/type': 4.0.5
 
-  '@inquirer/number@4.0.11':
+  '@inquirer/number@4.0.13':
     dependencies:
-      '@inquirer/core': 11.1.8
+      '@inquirer/core': 11.1.10
       '@inquirer/type': 4.0.5
 
   '@inquirer/password@5.0.11':
@@ -1004,7 +1023,7 @@ snapshots:
       '@inquirer/editor': 5.1.0
       '@inquirer/expand': 5.0.12
       '@inquirer/input': 5.0.11
-      '@inquirer/number': 4.0.11
+      '@inquirer/number': 4.0.13
       '@inquirer/password': 5.0.11
       '@inquirer/rawlist': 5.2.7
       '@inquirer/search': 4.1.7
