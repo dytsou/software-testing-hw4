@@ -8,6 +8,9 @@
     "mutate": "pnpm exec stryker run"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=22.13"
+  },
   "devDependencies": {
     "@stryker-mutator/core": "^9.6.1"
   },
